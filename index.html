@@ -250,6 +250,8 @@
   .area-name { font-family: 'Montserrat', sans-serif; font-weight: 800; font-size: 15px; color: var(--blue-dark); margin-bottom: 4px; }
   .area-phone { font-size: 13.5px; font-weight: 600; color: var(--blue-mid); text-decoration: none; display: block; }
   .area-phone:hover { color: var(--blue-dark); }
+  .area-name-link { text-decoration: none; display: block; }
+  .area-name-link:hover .area-name { color: var(--blue-light); text-decoration: underline; }
   @media (max-width: 900px) {
     .about-grid, .coverage-inner, .contact-grid, .footer-grid { grid-template-columns: 1fr; gap: 36px; }
     .footer-grid { grid-template-columns: 1fr 1fr; }
@@ -290,7 +292,8 @@
     <li><a href="#services">Services</a></li>
     <li><a href="mobile-windscreen-repairs.html">Repairs</a></li>
     <li><a href="classic-car-windscreens.html">Classic Cars</a></li>
-    <li><a href="#areas">Areas</a></li>
+    <li><a href="blog.html">Blog</a></li>
+    <li><a href="service-areas.html">Areas</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="tel:+447549940409" class="nav-cta">📞 Call Now</a></li>
   </ul>
@@ -328,35 +331,35 @@
   <h2>Service Areas & Local Numbers Across the West Midlands</h2>
   <p class="section-intro">We cover a 100-mile radius from Malvern. Call your local number or WhatsApp us for a fast response.</p>
   <div class="areas-grid">
-    <div class="area-card"><div class="area-name">Alcester</div><a href="tel:01905412855" class="area-phone">01905 412855</a></div>
-    <div class="area-card"><div class="area-name">Abingdon</div><a href="tel:01993359577" class="area-phone">01993 359577</a></div>
-    <div class="area-card"><div class="area-name">Banbury</div><a href="tel:01295367202" class="area-phone">01295 367202</a></div>
-    <div class="area-card"><div class="area-name">Bicester</div><a href="tel:01869388007" class="area-phone">01869 388007</a></div>
-    <div class="area-card"><div class="area-name">Bromsgrove</div><a href="tel:01562228170" class="area-phone">01562 228170</a></div>
-    <div class="area-card"><div class="area-name">Carterton</div><a href="tel:01993359577" class="area-phone">01993 359577</a></div>
-    <div class="area-card"><div class="area-name">Cheltenham</div><a href="tel:01242222826" class="area-phone">01242 222826</a></div>
-    <div class="area-card"><div class="area-name">Chipping Norton</div><a href="tel:01242222236" class="area-phone">01242 222236</a></div>
-    <div class="area-card"><div class="area-name">Chipping Sodbury</div><a href="tel:08006990300" class="area-phone">0800 699 0300</a></div>
-    <div class="area-card"><div class="area-name">Cirencester</div><a href="tel:01285238044" class="area-phone">01285 238044</a></div>
-    <div class="area-card"><div class="area-name">Cotswold</div><a href="tel:01242222826" class="area-phone">01242 222826</a></div>
-    <div class="area-card"><div class="area-name">Droitwich</div><a href="tel:01905412855" class="area-phone">01905 412855</a></div>
-    <div class="area-card"><div class="area-name">Evesham</div><a href="tel:01386300464" class="area-phone">01386 300464</a></div>
-    <div class="area-card"><div class="area-name">Gloucester</div><a href="tel:01452690711" class="area-phone">01452 690711</a></div>
-    <div class="area-card"><div class="area-name">Hereford</div><a href="tel:08006990300" class="area-phone">0800 699 0300</a></div>
-    <div class="area-card"><div class="area-name">Kidlington</div><a href="tel:01993359577" class="area-phone">01993 359577</a></div>
-    <div class="area-card"><div class="area-name">Kidderminster</div><a href="tel:01562228170" class="area-phone">01562 228170</a></div>
-    <div class="area-card"><div class="area-name">Lydney</div><a href="tel:08006990300" class="area-phone">0800 699 0300</a></div>
-    <div class="area-card"><div class="area-name">Oxford</div><a href="tel:08006990300" class="area-phone">0800 699 0300</a></div>
-    <div class="area-card"><div class="area-name">Redditch</div><a href="tel:08006990300" class="area-phone">0800 699 0300</a></div>
-    <div class="area-card"><div class="area-name">Ross On Wye</div><a href="tel:01684439701" class="area-phone">01684 439701</a></div>
-    <div class="area-card"><div class="area-name">Stratford</div><a href="tel:08006990300" class="area-phone">0800 699 0300</a></div>
-    <div class="area-card"><div class="area-name">Stroud</div><a href="tel:01453297001" class="area-phone">01453 297001</a></div>
-    <div class="area-card"><div class="area-name">Swindon</div><a href="tel:01285238044" class="area-phone">01285 238044</a></div>
-    <div class="area-card"><div class="area-name">Tewkesbury</div><a href="tel:01684439701" class="area-phone">01684 439701</a></div>
-    <div class="area-card"><div class="area-name">Thornbury</div><a href="tel:08006990300" class="area-phone">0800 699 0300</a></div>
-    <div class="area-card"><div class="area-name">Warwick</div><a href="tel:08006990300" class="area-phone">0800 699 0300</a></div>
-    <div class="area-card"><div class="area-name">Witney</div><a href="tel:01993359577" class="area-phone">01993 359577</a></div>
-    <div class="area-card"><div class="area-name">Worcester</div><a href="tel:01905412855" class="area-phone">01905 412855</a></div>
+    <div class="area-card"><a href="mobile-windscreen-repair-alcester.html" class="area-name-link"><div class="area-name">Alcester</div></a><a href="tel:01905412855" class="area-phone">01905 412855</a></div>
+    <div class="area-card"><a href="mobile-windscreen-repair-abingdon.html" class="area-name-link"><div class="area-name">Abingdon</div></a><a href="tel:01993359577" class="area-phone">01993 359577</a></div>
+    <div class="area-card"><a href="mobile-windscreen-repair-banbury.html" class="area-name-link"><div class="area-name">Banbury</div></a><a href="tel:01295367202" class="area-phone">01295 367202</a></div>
+    <div class="area-card"><a href="mobile-windscreen-repair-bicester.html" class="area-name-link"><div class="area-name">Bicester</div></a><a href="tel:01869388007" class="area-phone">01869 388007</a></div>
+    <div class="area-card"><a href="mobile-windscreen-repair-bromsgrove.html" class="area-name-link"><div class="area-name">Bromsgrove</div></a><a href="tel:01562228170" class="area-phone">01562 228170</a></div>
+    <div class="area-card"><a href="mobile-windscreen-repair-carterton.html" class="area-name-link"><div class="area-name">Carterton</div></a><a href="tel:01993359577" class="area-phone">01993 359577</a></div>
+    <div class="area-card"><a href="mobile-windscreen-repair-cheltenham.html" class="area-name-link"><div class="area-name">Cheltenham</div></a><a href="tel:01242222826" class="area-phone">01242 222826</a></div>
+    <div class="area-card"><a href="mobile-windscreen-repair-chipping-norton.html" class="area-name-link"><div class="area-name">Chipping Norton</div></a><a href="tel:01242222236" class="area-phone">01242 222236</a></div>
+    <div class="area-card"><a href="mobile-windscreen-repair-chipping-sodbury.html" class="area-name-link"><div class="area-name">Chipping Sodbury</div></a><a href="tel:08006990300" class="area-phone">0800 699 0300</a></div>
+    <div class="area-card"><a href="mobile-windscreen-repair-cirencester.html" class="area-name-link"><div class="area-name">Cirencester</div></a><a href="tel:01285238044" class="area-phone">01285 238044</a></div>
+    <div class="area-card"><a href="mobile-windscreen-repair-cotswold.html" class="area-name-link"><div class="area-name">Cotswold</div></a><a href="tel:01242222826" class="area-phone">01242 222826</a></div>
+    <div class="area-card"><a href="mobile-windscreen-repair-droitwich.html" class="area-name-link"><div class="area-name">Droitwich</div></a><a href="tel:01905412855" class="area-phone">01905 412855</a></div>
+    <div class="area-card"><a href="mobile-windscreen-repair-evesham.html" class="area-name-link"><div class="area-name">Evesham</div></a><a href="tel:01386300464" class="area-phone">01386 300464</a></div>
+    <div class="area-card"><a href="mobile-windscreen-repair-gloucester.html" class="area-name-link"><div class="area-name">Gloucester</div></a><a href="tel:01452690711" class="area-phone">01452 690711</a></div>
+    <div class="area-card"><a href="mobile-windscreen-repair-hereford.html" class="area-name-link"><div class="area-name">Hereford</div></a><a href="tel:08006990300" class="area-phone">0800 699 0300</a></div>
+    <div class="area-card"><a href="mobile-windscreen-repair-kidlington.html" class="area-name-link"><div class="area-name">Kidlington</div></a><a href="tel:01993359577" class="area-phone">01993 359577</a></div>
+    <div class="area-card"><a href="mobile-windscreen-repair-kidderminster.html" class="area-name-link"><div class="area-name">Kidderminster</div></a><a href="tel:01562228170" class="area-phone">01562 228170</a></div>
+    <div class="area-card"><a href="mobile-windscreen-repair-lydney.html" class="area-name-link"><div class="area-name">Lydney</div></a><a href="tel:08006990300" class="area-phone">0800 699 0300</a></div>
+    <div class="area-card"><a href="mobile-windscreen-repair-oxford.html" class="area-name-link"><div class="area-name">Oxford</div></a><a href="tel:08006990300" class="area-phone">0800 699 0300</a></div>
+    <div class="area-card"><a href="mobile-windscreen-repair-redditch.html" class="area-name-link"><div class="area-name">Redditch</div></a><a href="tel:08006990300" class="area-phone">0800 699 0300</a></div>
+    <div class="area-card"><a href="mobile-windscreen-repair-ross-on-wye.html" class="area-name-link"><div class="area-name">Ross On Wye</div></a><a href="tel:01684439701" class="area-phone">01684 439701</a></div>
+    <div class="area-card"><a href="mobile-windscreen-repair-stratford.html" class="area-name-link"><div class="area-name">Stratford</div></a><a href="tel:08006990300" class="area-phone">0800 699 0300</a></div>
+    <div class="area-card"><a href="mobile-windscreen-repair-stroud.html" class="area-name-link"><div class="area-name">Stroud</div></a><a href="tel:01453297001" class="area-phone">01453 297001</a></div>
+    <div class="area-card"><a href="mobile-windscreen-repair-swindon.html" class="area-name-link"><div class="area-name">Swindon</div></a><a href="tel:01285238044" class="area-phone">01285 238044</a></div>
+    <div class="area-card"><a href="mobile-windscreen-repair-tewkesbury.html" class="area-name-link"><div class="area-name">Tewkesbury</div></a><a href="tel:01684439701" class="area-phone">01684 439701</a></div>
+    <div class="area-card"><a href="mobile-windscreen-repair-thornbury.html" class="area-name-link"><div class="area-name">Thornbury</div></a><a href="tel:08006990300" class="area-phone">0800 699 0300</a></div>
+    <div class="area-card"><a href="mobile-windscreen-repair-warwick.html" class="area-name-link"><div class="area-name">Warwick</div></a><a href="tel:08006990300" class="area-phone">0800 699 0300</a></div>
+    <div class="area-card"><a href="mobile-windscreen-repair-witney.html" class="area-name-link"><div class="area-name">Witney</div></a><a href="tel:01993359577" class="area-phone">01993 359577</a></div>
+    <div class="area-card"><a href="mobile-windscreen-repair-worcester.html" class="area-name-link"><div class="area-name">Worcester</div></a><a href="tel:01905412855" class="area-phone">01905 412855</a></div>
   </div>
   <p style="color:var(--text-light); font-size:13px; margin-top:24px; line-height:1.6;">⚡ All calls answered 7 days a week · Mobile service comes to you · Same/next day in most areas</p>
 </section>
@@ -538,7 +541,7 @@
         <li><a href="mobile-windscreen-repairs.html">Mobile Repairs</a></li>
         <li><a href="classic-car-windscreens.html">Classic Car Windscreens</a></li>
         <li><a href="#services">Full Replacement</a></li>
-        <li><a href="#areas">Service Areas</a></li>
+        <li><a href="service-areas.html">Service Areas</a></li>
         <li><a href="#contact">Request a Quote</a></li>
       </ul>
     </div>
